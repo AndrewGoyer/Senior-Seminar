@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "../master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Remove Item</title>
+<!-- #EndEditable -->
+<link href="../styles/style1.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+</head>
+
+<body>
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		<h1>Tech Inventory</h1>
+		<h3>Technology Inventory System </h3>
+	</div>
+	<!-- End Masthead -->
+	<!-- Begin Navigation -->
+	<div id="navigation">
+		<ul>
+			<li><a href="../home.html">Home</a></li>
+			<li><a href="../add_item/default.html">Add Iem</a></li>
+			<li><a href="default.html">Remove Item</a></li>
+			<li><a href="../search/default.html">Search</a></li>
+			<li><a href="../view_all/default.php">View All</a></li>
+
+		</ul>
+	</div>
+	<!-- End Navigation -->
+	<!-- Begin content_container -->
+	<div id="content_container">
+		<!-- Begin Left Column -->
+		<div id="column_left">
+			<!-- #BeginEditable "content" -->
+			<h2>Remove Item</h2>
+			
+			<script type="text/javascript" src="/login.js"></script>
+			<form action="rremove.php" method="post" onsubmit="return myFunction()>
+   			<fieldset style="width: 500px; margin:  0px auto;">
+
+   				<legend>Item information:</legend>
+   				 <br>Serial Number:<br>
+   				 <input type="text" name="serial"><br>
+   				 <br>Or:<br><br>
+   				 Inverntory ID:<br>
+    			 <input type="text" name="inventory_id"><br>	
+					<br><br>
+		     	 <input type="submit" value="Remove" onclick="myFunction()"><input name="Reset1" type="reset" value="Reset" />
+  			</fieldset>
+		</form> 
+
+			<!-- #EndEditable --></div>
+		<!-- End Left Column -->
+		<!-- Begin Right Column -->
+		<!-- End Right Column -->
+		<!-- Begin Footer -->
+		<div id="footer">
+			<div id="copyright">
+				<p>Copyright &copy; 2017. All Rights Reserved.</p>
+			</div>
+			<p><a href="../home.html">Home</a> | 
+			<a href="../add_item/default.html">Add item 
+			</a> | <a href="default.html">Remove Item</a> |
+			<a href="../search/default.html">Search</a> |
+			<a href="../view_all/default.php">View All</a> |
+		</div>
+		<!-- End Footer --></div>
+	<!-- End content_container --></div>
+<!-- End Container -->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
